@@ -1,0 +1,22 @@
+{
+  "name": "miditokeystroke",
+  "version": "0.0.1",
+  "description": "Convert MIDI messages to keyboard keystrokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MIDI",
+    "JavaScript",
+    "node",
+    "node.js",
+    "Web MIDI API"
+  ],
+  "author": "Ben Michel",
+  "license": "MIT",
+  "dependencies": {
+    "@nut-tree/nut-js": "^2.1.1",
+    "web-midi-api": "^2.1.5"
+  }
+}

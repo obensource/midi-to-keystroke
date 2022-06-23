@@ -54,19 +54,6 @@ function testOutputs() {
   outputs.forEach(function(port) {
     console.log('id:', port.id, 'manufacturer:', port.manufacturer, 'name:', port.name, 'version:', port.version);
     port.open();
-    // port.send([0x90, 100, 0x7f]);
-    // port.send([0x90, 110, 0x7f]);
-    // port.send([0x90, 111, 0x7f]);
-    // port.send([0x90, 112, 0x7f]);
-    // port.send([0x90, 113, 0x7f]);
-    // port.send([0x90, 114, 0x7f]);
-    // port.send([0x90, 115, 0x7f]);
-    // port.send([0x90, 116, 0x7f]);
-    // port.send([0x90, 117, 0x7f]);
-    // port.send([0x90, 118, 0x7f]);
-    // port.send([0x90, 119, 0x7f]);
-    // port.send([0x90, 120, 0x7f]);
-    // port.send([0x90, 121, 0x7f]);
     port.send([0x90, 122, 0x7f]);
     port.send([0x90, 123, 0x7f]);
     port.send([0x90, 124, 0x7f]);
@@ -89,9 +76,6 @@ function testOutputs() {
     port.send([0x90, 14, 0x7f]);
     port.send([0x90, 15, 0x7f]);
     port.send([0x90, 16, 0x7f]);
-    // port.send([0x90, 17, 0x7f]);
-    // port.send([0x90, 18, 0x7f]);
-    // port.send([0x90, 19, 0x7f]);
   });
   setTimeout(stopOutputs, 1000);
 }
